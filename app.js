@@ -25,14 +25,15 @@
 // }
 // console.log(sorted(arr));
 
-function order(words) {
-  let reg = /[^0-9]/gi;
-  if (!words) {
-    return "";
-  }
-  let splited = words.split(' ');
-  return splited.sort(function (a, b) {
-    a.replace(reg, '') - b.replace(reg, '');
-  }).join(' ');
-}
+// function order(words) {
+//   let reg = /[^0-9]/gi;
+//   if (!words) {
+//     return "";
+//   }
+//   let splited = words.split(' ');
+//   return splited.sort(function (a, b) {
+//     a.replace(reg, '') - b.replace(reg, '');
+//   }).join(' ');
+// }
 
+// assign(qabul qiluvchi, qoshiluvchi)
